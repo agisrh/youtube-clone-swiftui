@@ -13,9 +13,10 @@
 		A62BF3802C05C26900CD3A02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62BF37F2C05C26900CD3A02 /* Preview Assets.xcassets */; };
 		A62BF3872C05C83D00CD3A02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62BF3862C05C83D00CD3A02 /* HomeView.swift */; };
 		A62BF38F2C05D6E500CD3A02 /* BottombarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62BF38E2C05D6E500CD3A02 /* BottombarWidget.swift */; };
+		A6307CDF2C0811D600B0CFE0 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6307CDE2C0811D600B0CFE0 /* SubscriptionView.swift */; };
+		A6307CE12C082D6B00B0CFE0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6307CE02C082D6B00B0CFE0 /* LibraryView.swift */; };
 		A6D0B3F22C06C76D00B9ECF7 /* ComponentWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0B3F12C06C76D00B9ECF7 /* ComponentWidget.swift */; };
 		A6D0B3F42C07171D00B9ECF7 /* ShortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0B3F32C07171D00B9ECF7 /* ShortView.swift */; };
-		A6D0B3F62C0731CD00B9ECF7 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0B3F52C0731CD00B9ECF7 /* CreateView.swift */; };
 		A6D0B3F82C07348C00B9ECF7 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0B3F72C07348C00B9ECF7 /* BlankView.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,9 +28,10 @@
 		A62BF37F2C05C26900CD3A02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A62BF3862C05C83D00CD3A02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A62BF38E2C05D6E500CD3A02 /* BottombarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottombarWidget.swift; sourceTree = "<group>"; };
+		A6307CDE2C0811D600B0CFE0 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		A6307CE02C082D6B00B0CFE0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		A6D0B3F12C06C76D00B9ECF7 /* ComponentWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentWidget.swift; sourceTree = "<group>"; };
 		A6D0B3F32C07171D00B9ECF7 /* ShortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortView.swift; sourceTree = "<group>"; };
-		A6D0B3F52C0731CD00B9ECF7 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		A6D0B3F72C07348C00B9ECF7 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +88,9 @@
 			children = (
 				A62BF3862C05C83D00CD3A02 /* HomeView.swift */,
 				A6D0B3F32C07171D00B9ECF7 /* ShortView.swift */,
-				A6D0B3F52C0731CD00B9ECF7 /* CreateView.swift */,
 				A6D0B3F72C07348C00B9ECF7 /* BlankView.swift */,
+				A6307CDE2C0811D600B0CFE0 /* SubscriptionView.swift */,
+				A6307CE02C082D6B00B0CFE0 /* LibraryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,9 +176,10 @@
 			files = (
 				A62BF38F2C05D6E500CD3A02 /* BottombarWidget.swift in Sources */,
 				A62BF3872C05C83D00CD3A02 /* HomeView.swift in Sources */,
+				A6307CDF2C0811D600B0CFE0 /* SubscriptionView.swift in Sources */,
 				A62BF37B2C05C26700CD3A02 /* ContentView.swift in Sources */,
+				A6307CE12C082D6B00B0CFE0 /* LibraryView.swift in Sources */,
 				A6D0B3F22C06C76D00B9ECF7 /* ComponentWidget.swift in Sources */,
-				A6D0B3F62C0731CD00B9ECF7 /* CreateView.swift in Sources */,
 				A6D0B3F82C07348C00B9ECF7 /* BlankView.swift in Sources */,
 				A62BF3792C05C26700CD3A02 /* youtubeApp.swift in Sources */,
 				A6D0B3F42C07171D00B9ECF7 /* ShortView.swift in Sources */,

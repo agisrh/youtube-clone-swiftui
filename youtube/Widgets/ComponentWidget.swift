@@ -37,7 +37,31 @@ struct InitialProfile: View {
     }
 }
 
-
+// User Online
+struct UserOnline: View {
+    var image: String
+    var name: String
+    var isOnline: Bool = false
+    var body: some View {
+        VStack {
+            ZStack {
+                Image(image)
+                    .resizable()
+                    .frame(width: 56, height: 56)
+                    .clipShape(Circle())
+                if(isOnline){
+                    Circle().fill(.blue).frame(width: 10, height: 10)
+                        .font(.body)
+                        .padding(2)
+                        .background(.black)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .offset(x:20, y:20)
+                }
+            }
+            Text(name).font(.system(size: 12)).lineLimit(1)
+        }.frame(width: 72)
+    }
+}
 
 // Video Card
 struct Video: View {
@@ -176,5 +200,33 @@ struct IconButtonV: View {
                 .font(.system(size: 12))
                 .foregroundColor(.white)
         }
+    }
+}
+
+
+// Screen Size
+extension UIScreen{
+   static let screenWidth = UIScreen.main.bounds.size.width
+   static let screenHeight = UIScreen.main.bounds.size.height
+   static let screenSize = UIScreen.main.bounds.size
+}
+
+// Button Create
+struct CreateMenu: View {
+    var icon: String
+    var text: String
+    var body: some View {
+        HStack{
+            ZStack{
+                Circle()
+                    .fill(Color("black2"))
+                    .frame(width: 48, height: 48)
+                Image(icon).resizable().frame(width: 24, height: 24)
+            }
+            Text(text)
+                .font(.system(size: 16))
+                .padding(.leading, 10)
+            Spacer()
+        }.padding(.bottom, 24)
     }
 }

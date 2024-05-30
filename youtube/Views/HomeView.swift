@@ -27,6 +27,8 @@ struct HomeView: View{
                         ChipWidget(text: "Tutorial")
                     }
                 }.padding(.top, 10)
+                
+                // Videos
                 ListVideo()
             }.navigationBarItems(
                 leading:  HStack {
@@ -59,7 +61,7 @@ struct ListVideo: View {
             Video(thumbnail: "thumb-3", duration: "18:43", title: "How to Export Figma Prototype to Video", subtitle: "Figma · 437K views · 7 days ago").listRowInsets(EdgeInsets())
             
             // Continue Watching
-           ListHistoryWatch().listRowInsets(EdgeInsets())
+            ListHistoryWatch().listRowInsets(EdgeInsets())
             
             Video(thumbnail: "thumb-4", duration: "10:32", title: "Build your design system - Lesson 3 : Introduction to design systems", subtitle: "Figma · 437K views · 7 days ago").listRowInsets(EdgeInsets())
             
